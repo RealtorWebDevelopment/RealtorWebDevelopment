@@ -1,19 +1,62 @@
+
+
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+.container{
+  width: 100%;
+  background-image: url(Assets/image1.jpg);
+  background-repeat: no-repeat;
+   background-size: cover;
+   opacity: 80%;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  background-color: #fff;
+  box-shadow: 0 0 0 0px rgba(0,0,0,.15),
+    0 5px 5px 0 rgba(0,0,0,.1);
+ box-sizing: border-box;
+
+  /* padding-bottom: 10rem; */
+}
 .navbar{
     padding: 1rem;
-        
+    /* text-decoration: none; */
+
 }
 ul.ulist{
     padding: 1rem;
 }
 
-ul.
 
 navbar.homebar{
-    margin-bottom: 2rem;
+   margin-bottom: 2rem;
+
+}
+.homebar{
+   margin-bottom: 1.1rem;
+}
+.homebar>a, ul>a{
+  align-items: center;
+}
+.homebar>a, ul.navbar-nav>a, li>a{
+  font-size: 22px;
 }
 
-
-
+ul.navbar>li{
+  text-decoration: none;
+}
+ul li a:hover {
+  background-color: #0080ff;
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: rgba(0,0,0,.9);
+  font-size: 22px;
+}
+.navbar.navbar-expand-sm{
+  text-decoration: none;
+}
 .sectionsearch{
     margin-top: 10%;
 }
@@ -22,7 +65,9 @@ navbar.homebar{
 .form-control-borderless {
     border: none;
 }
-
+.col-sm{
+  padding: 0;
+}
 .form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
     border: none;
     outline: none;
@@ -37,13 +82,22 @@ ul.li.companyname{
 }
 
 .infocontainer{
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
+input.form-control{
+  padding:0;
+}
+.col-sm input{
+  padding:0 0;
+  width:100%;
+  line-height: 2rem;
+
+}
 div.box {
-   
+
     text-align: center;
- 
+
   margin: 30px;
   padding: 50px 30px 40px 24px;
   border-radius: 7px;
@@ -51,19 +105,27 @@ div.box {
   box-shadow: 0 0 0 1px rgba(0,0,0,.15),
     0 2px 3px 0 rgba(0,0,0,.1);
  box-sizing: border-box;
+
     background-color: red;
     color: white;
-  
+
+}
+.box label{
+  font-size: 2rem;
 }
 
 footer.footsy{
-    margin-top: 20%;
-    background-color: cyan
-    
-        
+    margin-top: 7%;
+    background-color: #615959;
+    padding: 10px 20px;
 
 }
-
+.container{
+  background-color:  #615959;;
+}
+div.container h1{
+  color: firebrick;
+}
 
 
 
@@ -108,6 +170,3 @@ footer.footsy{
         padding-right: 15px;
     }
 }
-    
-
-

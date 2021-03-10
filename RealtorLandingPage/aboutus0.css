@@ -1,0 +1,279 @@
+.nav-header {
+  padding: 0 0 10px;
+  background-color: #FFFCFC; }
+  .nav-header .container {
+    padding: 10px 15px 0;
+     margin-right: auto;
+     margin-left: auto; }
+    .nav-menu {
+  /* float: right; */
+  /* margin: 5px 0 0; */
+ }
+  .nav-menu .nav-menu-list {
+    font-size: 1.25rem;
+    /* margin: 0; */
+    padding: 0;
+    list-style: none; }
+
+    .nav-menu .nav-menu-list .nav-item {
+      display: inline-block;
+      /* margin: 0 0 0 0; */
+      vertical-align: top; }
+      .nav-menu .nav-menu-list .nav-item .nav-a {
+        display: block;
+        /* padding: 5px 10px; */
+        text-decoration: none;
+        color: #626262;
+        border: 1px solid transparent;
+        text-transform: uppercase; }
+        .nav-menu .nav-menu-list .nav-item .nav-a:hover {
+          color: red; }
+
+          body {
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  line-height: 1.6; }
+
+  .row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+     align-items: flex-start;; }
+  }
+
+  .row::after {
+    display: table;
+    clear: both; }
+
+  .col-1 {
+    width: 8.33%; }
+
+  .col-2 {
+    width: 16.66%; }
+
+  .col-3 {
+    width: 25%; }
+
+  .col-4 {
+    width: 33.33%; }
+
+  .col-5 {
+    width: 41.66%; }
+
+  .col-6 {
+    width: 50%; }
+
+  .col-7 {
+    width: 58.33%; }
+
+  .col-8 {
+    width: 66.66%; }
+
+  .col-9 {
+    width: 75%; }
+
+  .col-10 {
+    width: 83.33%; }
+
+  .col-11 {
+    width: 91.66%; }
+
+  .col-12 {
+    width: 100%; }
+
+  * {
+    box-sizing: border-box; }
+
+  .container {
+    /* min-width: 1160px; */
+    /* padding-right: 15px; */
+    /* padding-left: 15px; */
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    display: block; }
+
+
+.logo{
+    align-content: center;
+}
+nav {
+ display: block;
+  width: 100%;
+  margin: 0;
+}
+
+nav ul {
+ // background-color: #eee;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+ul.topnav li {
+  list-style: none;
+  float: left;
+     padding-top: 20px;
+}
+ul.topnav li.topnav-middle
+{
+    padding-left: 200px;
+   // Height: 75px;
+    padding-top: 0;
+
+}
+
+ul.topnav li.topnav-right {
+  float: right;
+    padding-top: 20px;
+}
+
+ul.topnav li a {
+  display: block;
+  text-decoration: none;
+  min-height: 16px;
+  text-align: center;
+  padding: 14px;
+  text-transform: uppercase;
+  color: Aqua;;
+}
+
+ul.topnav li a:hover {
+  background-color: #0080ff;
+  color: #fff;
+}
+
+ul.topnav li.dropdownIcon {
+  display: none;
+}
+.TopDisplay{
+    background-image: url(Assets/image1.jpg);
+   background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80%;
+
+    }
+section{
+    background-color: gainsboro;
+}
+.empty{
+    height: 400px;
+    text-align: center;
+    font-size: 30px;
+}
+.background-img{
+    width: 100%;
+    height: 300px;
+   margin: 10px 10px;
+    border: 0;
+}
+
+.wrapper{
+    text-align: center;
+    padding: 100px;
+}
+h1{
+    font-size: 55;
+    color: white;
+
+}
+.about-info
+{
+    font-family: sans-serif,serif;
+    color: #ffff00;
+    padding: 10px;
+    font-size: 25;
+}
+
+.aboutus-grid {
+    display: grid;
+   background-color: burlywood;
+   // grid-column:  2fr 2fr;
+    grid-template-columns: repeat(3,1fr);
+    color: brown;
+    font-size: 40px;
+    text-align: center;
+    padding: 5px;
+}
+.links
+{
+    text-decoration: none;
+    color: brown;
+}
+.container.story-info{
+    height:300px;
+    width: 75%;
+
+}
+.info-grid{
+   /* display: flex;*/
+
+
+}
+.story-object{
+    display:flex;
+    font-size: 40px;
+    align-content: space-between;
+    text-align: justify;
+
+}
+.left-info{
+
+     padding: 20px;
+    width: 550px;
+    height: 250px;
+}
+.icon
+{
+    width: 50px;
+    height: 50px;
+   align-content: center;
+}
+.right-info{
+    font-size: 20px;
+}
+.left-info
+{
+    text-align: center;
+
+}
+.mission-object{
+    display: block;
+}
+.right-info.mission{
+    text-align: center;
+    padding: 20px;
+}
+.bg-inverse{
+    background-color: grey;
+    color: white;
+}
+.footerImg {
+  padding: 15px;
+}
+.fa {
+  margin: 10px;
+}
+
+.fa-facebook-square {
+  color: #3b5998;
+}
+
+.fa-google-plus-square {
+  color: #c32f10;
+}
+
+.fa-instagram {
+  color: #ffffff;
+}
+
+.socialWrapper {
+  margin: auto;
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: brown;
+}
