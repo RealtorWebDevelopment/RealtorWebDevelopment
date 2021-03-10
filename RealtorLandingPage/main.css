@@ -1,0 +1,113 @@
+.navbar{
+    padding: 1rem;
+        
+}
+ul.ulist{
+    padding: 1rem;
+}
+
+ul.
+
+navbar.homebar{
+    margin-bottom: 2rem;
+}
+
+
+
+.sectionsearch{
+    margin-top: 10%;
+}
+
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+
+ul.li.companyname{
+    position: absolute;
+    left: 50%;
+    margin-left: 5%;
+}
+
+.infocontainer{
+    margin-top: 10%;
+}
+
+div.box {
+   
+    text-align: center;
+ 
+  margin: 30px;
+  padding: 50px 30px 40px 24px;
+  border-radius: 7px;
+  background-color: #fff;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.15),
+    0 2px 3px 0 rgba(0,0,0,.1);
+ box-sizing: border-box;
+    background-color: red;
+    color: white;
+  
+}
+
+footer.footsy{
+    margin-top: 20%;
+    background-color: cyan
+    
+        
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<----mobilecompatibility------->
+
+@media only screen and (min-width : 156px) and (max-width : 576px){
+    .sectionsearch{
+        display: block;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+    
+
+
