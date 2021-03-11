@@ -5,11 +5,12 @@
   padding-right: 0;
 }
 .container{
+  height:500px;
   width: 100%;
-  background-image: url(Assets/image1.jpg);
+  background-image: url(Assets/Home1.jpg);
   background-repeat: no-repeat;
    background-size: cover;
-   opacity: 80%;
+   /* opacity: 80%; */
   padding-top: 7rem;
   padding-bottom: 7rem;
   background-color: #fff;
@@ -22,6 +23,8 @@
 .navbar{
     padding: 1rem;
     /* text-decoration: none; */
+    background-color: #9F9A9A;
+    font-weight: 500;
 
 }
 ul.ulist{
@@ -46,7 +49,7 @@ navbar.homebar{
 ul.navbar>li{
   text-decoration: none;
 }
-ul li a:hover {
+nav ul li a:hover,nav a:hover {
   background-color: #0080ff;
   color: #fff;
 }
@@ -56,6 +59,9 @@ ul li a:hover {
 }
 .navbar.navbar-expand-sm{
   text-decoration: none;
+}
+ul.navbar li{
+  list-style-type: none;
 }
 .sectionsearch{
     margin-top: 10%;
@@ -87,6 +93,10 @@ ul.li.companyname{
 
 input.form-control{
   padding:0;
+}
+.col-sm
+{
+  align-items: center;
 }
 .col-sm input{
   padding:0 0;
