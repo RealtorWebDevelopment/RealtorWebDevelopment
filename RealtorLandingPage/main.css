@@ -137,6 +137,53 @@ div.container h1{
   color: firebrick;
 }
 
+div.modal-content{
+    background: white;
+    background-image: none;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+
+
+.btn-google{
+    color: black;
+    background: red;
+    
+}
+
+.btn-facebook{
+    color: white;
+    background: blue;
+}
+
+p{
+    font:5px;
+
+}
+
+.btn-primary{
+    background-color: grey;
+}
+
+.bd-example-modal-lg{
+    background-color: azure;
+    box-sizing: border-box;
+    
+}
+.modal-content{
+
+}
+
+
+
+
+
 
 
 
