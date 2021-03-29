@@ -145,16 +145,24 @@ div.modal-content{
 
 h1{
     text-align: center;
-    font-size: 50px;
-    color: white;
+    font-size: 30px;
+    color: firbrick;
+    padding: 10px;
 }
-
+.form-group{
+  padding: 10px 10px;
+}
+.form-group .form-control{
+  margin: 0;
+  width: 500px;
+  height: 35px;
+}
 
 
 .btn-google{
     color: black;
     background: red;
-    
+
 }
 
 .btn-facebook{
@@ -174,7 +182,7 @@ p{
 .bd-example-modal-lg{
     background-color: azure;
     box-sizing: border-box;
-    
+
 }
 .modal-content{
 
