@@ -1,0 +1,200 @@
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+.container{
+  height:500px;
+  width: 100%;
+  background-image: url(../Assets/Home1.jpg);
+  background-repeat: no-repeat;
+   background-size: cover;
+   /* opacity: 80%; */
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  background-color: #fff;
+  box-shadow: 0 0 0 0px rgba(0,0,0,.15),
+    0 5px 5px 0 rgba(0,0,0,.1);
+ box-sizing: border-box;
+
+  /* padding-bottom: 10rem; */
+}
+.navbar{
+    padding: 1rem;
+    /* text-decoration: none; */
+    background-color: #9F9A9A;
+    font-weight: 500;
+
+}
+ul.ulist{
+    padding: 1rem;
+}
+
+
+navbar.homebar{
+   margin-bottom: 2rem;
+
+}
+.homebar{
+   margin-bottom: 1.1rem;
+}
+.homebar>a, ul>a{
+  align-items: center;
+}
+.homebar>a, ul.navbar-nav>a, li>a{
+  font-size: 22px;
+}
+
+ul.navbar>li{
+  text-decoration: none;
+}
+nav ul li a:hover,nav a:hover {
+  background-color: #0080ff;
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: rgba(0,0,0,.9);
+  font-size: 22px;
+}
+.navbar.navbar-expand-sm{
+  text-decoration: none;
+}
+ul.navbar li{
+  list-style-type: none;
+}
+
+.sectionsearch{
+    margin-top: 10%;
+}
+
+
+.form-control-borderless {
+    border: none;
+}
+.col-sm{
+  padding: 0;
+}
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+
+ul.li.companyname{
+    position: absolute;
+    left: 50%;
+    margin-left: 5%;
+}
+
+.infocontainer{
+    margin-top: 5%;
+}
+
+input.form-control{
+  padding:0;
+}
+.col-sm
+{
+  align-items: center;
+}
+.col-sm input{
+  padding:0 0;
+  width:100%;
+  line-height: 2rem;
+
+}
+div.box {
+
+    text-align: center;
+
+  margin: 30px;
+  padding: 50px 30px 40px 24px;
+  border-radius: 7px;
+  background-color: #fff;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.15),
+    0 2px 3px 0 rgba(0,0,0,.1);
+ box-sizing: border-box;
+
+    background-color: red;
+    color: white;
+
+}
+.box label{
+  font-size: 2rem;
+}
+
+footer.footsy{
+    margin-top: 7%;
+    background-color: #615959;
+    padding: 10px 20px;
+
+}
+.container{
+  background-color:  #615959;;
+}
+div.container h1{
+  color: firebrick;
+}
+
+div.modal-content{
+    background: white;
+    background-image: none;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: firbrick;
+    padding: 10px;
+}
+.form-group{
+  padding: 10px 10px;
+}
+.form-group .form-control{
+  margin: 0;
+  width: 500px;
+  height: 35px;
+}
+
+label{
+    margin:0;
+    
+}
+
+.btn-google{
+    color: black;
+    background: red;
+
+}
+
+.btn-facebook{
+    color: white;
+    background: blue;
+}
+
+p{
+    font:5px;
+
+}
+
+.btn-primary{
+    background-color: grey;
+}
+
+.bd-example-modal-lg{
+    background-color: azure;
+    box-sizing: border-box;
+
+}
+
+
+<----mobilecompatibility------->
+
+@media only screen and (min-width : 156px) and (max-width : 576px){
+    .sectionsearch{
+        display: block;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
