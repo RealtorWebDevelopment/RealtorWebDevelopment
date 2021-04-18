@@ -1,0 +1,33 @@
+.loginForm{
+    background-color: aliceblue;
+    width: 800px;
+    margin-left: 270px;
+}
+.welcome{
+    width: 100%;
+    font-weight: 600;
+    color: red;
+    
+}
+.mb-3{
+    padding: 0;
+    text-align: left;
+    font-size: 25px;
+    
+}
+.form-control{
+    height: 30px;
+    padding: 10px;
+}
+.forgotPassword{
+    font-size: 20px;
+}
+#dropdownCheck{
+    border-style: none;
+      height: 15px;
+    
+}
+.btn-primary{
+    margin-top: 30px;
+   background-color: blue;
+}

@@ -61,7 +61,6 @@ nav ul li a:hover,nav a:hover {
 ul.navbar li{
   list-style-type: none;
 }
-
 .sectionsearch{
     margin-top: 10%;
 }
@@ -157,10 +156,6 @@ h1{
   height: 35px;
 }
 
-label{
-    margin:0;
-    
-}
 
 .btn-google{
     color: black;

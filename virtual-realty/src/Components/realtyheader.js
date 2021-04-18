@@ -1,27 +1,16 @@
-import React from 'react';
+import React, {Component} from 'react';
+import {Route} from 'react-router-dom';
 import './realtyheader.css';
 import logo from '../Assets/logo.jpg';
+import LoginForm from './loginForm';
+import RegistrationForm from './registartionForm';
 
 
-class RealtyHeader extends React.Component{
-    constructor(props){
-       super(props);
-        
-        this.state={
-            email:'',
-            password:''
-        }
+class RealtyHeader extends Component{
+    Constructor(props){
+
     }
-    
-changeHandler=(e) => {
-    this.setState({[e.target.name]:e.target.value});
-}
-submitHandler =(e) => {
-    e.preventDefault();
-    console.log(this.state);
-}
     render(){
-       
         return(
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg navbar-toggleable-md navbar-light bg-faded">
@@ -73,20 +62,20 @@ submitHandler =(e) => {
                             </li>
 
                             <li class="nav-link">
-                                <li class="nav-item">
-                                    <link to={'/login'} className="nav-link">Login</link>
-
-                                </li>
-                               
-                                </li>
+                                <a class="btn btn-primary" href="/signin" >Sign In</a>
+                             
+ <a class="btn btn-primary" href="/register">Sign Up</a>
+                              
+                                       
+                            </li>
+                                                                  
                             
                         </ul>
-
-                    </div>
-                </nav>
+                                 
+                    
+                            </div>
+                </nav>   
             </div>
-
-
 
 
         );
