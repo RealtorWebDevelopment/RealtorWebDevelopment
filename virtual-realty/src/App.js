@@ -10,11 +10,12 @@ import About from './Components/about';
 import Contact from './Components/contact';
 
 import LoginForm from './Components/loginForm';
-import Register from './Components/registartionForm';
+import RegistrationForm from './Components/registartionForm';
 
 
 function App() {
-    return (
+    
+              return (
         <div className="App">
 
 
@@ -35,7 +36,7 @@ function App() {
                 
             </div>
              <div className="signup-Body">
-                <Route exact path="/signup" component={Register}/>
+                <Route exact path="/signup" component={RegistrationForm}/>
                 
             </div>
             </section>
