@@ -1,0 +1,19 @@
+
+.row{
+    padding-top: 20px;
+}
+
+.project{
+   width: 20rem;
+    margin-right: 40px;
+    
+}
+
+.project img{
+    max-height: 20rem;
+}
+.portfolio-wrapper{
+    padding-top: 35px;
+    padding-bottom: 35px;
+   padding-right: 10px;
+}

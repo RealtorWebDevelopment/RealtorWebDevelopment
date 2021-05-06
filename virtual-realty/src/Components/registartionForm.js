@@ -37,8 +37,31 @@ class RegistrationForm  extends Component{
            
            
         };
-          
-        
+      var nameFormat=/^[a-zA-Z ]{2,30}$/;
+           if (!(/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(
+            customer.email)))
+        {
+            alert("Valid Email is required. Please Enter Valid Email");
+        }
+       
+      else if(!(nameFormat.test(customer.firstname)))
+      {
+           alert ("Please enter valid FirstName");
+      }
+      else if(!(nameFormat.test(customer.lastname)))
+      {
+           alert ("Please enter valid Last Name");
+      }
+      else if(!(/(^\d{5}$)|(^\d{5}-\d{4}$)/.test(customer.zipcode)))
+      {
+           alert ("Please enter 5 digit or 5-4 digits Zip code");
+      }
+  else if(!(/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/.test(customer.phonenumber)))
+      {
+           alert ("Please enter Valid 10 digit phone number");
+      }
+      else{
+      
         fetch('http://localhost:8000/api/Register',{
             
             method: 'post',
@@ -51,51 +74,67 @@ class RegistrationForm  extends Component{
         }).then(res => {
             
             console.log(res.json());
-            if(res.statusCode===200 || res.statusCode===204){
-                alert("Registered Successfully");
+            if(res.status===200 || res.status===204){
+                
+                alert("Registered Successfully. Login with Credentials or go back to Home");
+
+                this.props.history.push("/");
             }
         })
+      }
     }
 
     
     render(){
         
         return(
-            <section>
-                <div class="container-fluid">
-            <div class="loginForm">
-                
-                              <h1 class="welcome">Welcome to smartechomes</h1>
-                 <div class="col-sm-8 ml-auto mr-auto">
+         <ul>
+                <li className="nav-link">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
+                        Register
+        </button>
+                        
+                    
+                     <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Welcome to smartechomes</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body">
+                              <p> Signup to get more property updates, Agents information and more</p>
                     <form className="px-4 py-3" onSubmit={this.onSubmit}  id="registrationForm" >
                         <div className="mb-3">
-                            <label for="exampleDropdownFormEmail1" className="form-label">Email address</label>
-                            <input name="email" type="text" className="form-control" id="email" placeholder="email@example.com" onChange={this.onChange} value={this.state.email}/>
+                            
+                            <input name="email" type="text" className="form-control" id="email" placeholder="Email Address" onChange={this.onChange} value={this.state.email} required/>
                               
                         </div>
                         <div class="mb-3">
-                            <label for="exampleDropdownFormPassword1" class="form-label">Password</label>
-                            <input name="password" type="password" class="form-control" id="password" placeholder="Password" onChange={this.onChange} value={this.state.password}/>
+                           
+                            <input name="password" type="password" class="form-control" id="password" placeholder="Password" onChange={this.onChange} value={this.state.password} required/>
                              
                         </div>
             <div class="mb-3">
-                            <label for="exampleDropdownFormPassword1" class="form-label">First Name</label>
-                            <input name="firstname" type="text" class="form-control" id="fname" placeholder="FirstName" onChange={this.onChange} value={this.state.firstname}/>
+                            
+                            <input name="firstname" type="text" class="form-control" id="fname" placeholder="First Name" onChange={this.onChange} value={this.state.firstname} required/>
                              
                         </div>
             <div class="mb-3">
-                            <label for="exampleDropdownFormPassword1" class="form-label">Last Name</label>
-                            <input name="lastname" type="text" class="form-control" id="lname" placeholder="Last Name" onChange={this.onChange} value={this.state.lastname}/>
+                            
+                            <input name="lastname" type="text" class="form-control" id="lname" placeholder="Last Name" onChange={this.onChange} value={this.state.lastname} required/>
                              
                         </div>
              <div class="mb-3">
-                            <label for="exampleDropdownFormPassword1" class="form-label">Zip Code</label>
-                            <input name="zipcode" type="text" class="form-control" id="Postal Code" placeholder="ZipCode" onChange={this.onChange} value={this.state.zipcode}/>
+                           
+                            <input name="zipcode" type="text" class="form-control" id="Postal Code" placeholder="ZipCode" onChange={this.onChange} value={this.state.zipcode} required/>
                              
                         </div>
                          <div class="mb-3">
-                            <label for="exampleDropdownFormPassword1" class="form-label">Phone Number</label>
-                            <input name="phonenumber" type="text" class="form-control" id="phone" placeholder="phone Number" onChange={this.onChange} value={this.state.phonenumber}/>
+                            
+                            <input name="phonenumber" type="text" class="form-control" id="phone" placeholder="Phone Number" onChange={this.onChange} value={this.state.phonenumber} required/>
                              
                         </div>
                         
@@ -103,12 +142,14 @@ class RegistrationForm  extends Component{
                             <button type="submit" class="btn btn-primary">Register</button>
                     </form>
                     
-            </div>
+           </div>
+                    
+        </div>
+                         </div>
                     </div>
-                </div>
-                
-                </section>
-
+                </li>
+            
+            </ul>
         );
     }
 }

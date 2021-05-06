@@ -3,7 +3,7 @@ import './realtyheader.css';
 import './about.css';
 import location from '../Assets/Locationicon.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+//import RealtyHeader from './realtyheader';
 
 class About extends Component{
     Constructor(props){
@@ -12,7 +12,9 @@ class About extends Component{
     render()
     {
         return(
+            
             <div class="about-us">
+
                 <div class="TopDisplay">
 
                     <div class="section">

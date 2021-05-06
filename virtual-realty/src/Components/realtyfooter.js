@@ -21,10 +21,10 @@ class RealtyFooter extends Component{
                             <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Real Estate</h5>
                             <ul className="list-unstyled">
                                 <li>
-                                    <a href="/realEstate/residential">Residential</a>
+                                    <a href="/realEstate">Residential</a>
                                 </li>
                                 <li>
-                                    <a href="/realEstate/Industrial">Industrial</a>
+                                    <a href="/realEstate">Industrial</a>
                                 </li>
                                 <li>
                                     <a href="/realEstate">Commercial</a>
@@ -37,10 +37,10 @@ class RealtyFooter extends Component{
                             <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Project</h5>
                             <ul className="list-unstyled">
                                 <li>
-                                    <a href="/projects/current">Current</a>
+                                    <a href="/projects">Current</a>
                                 </li>
                                 <li>
-                                    <a href="/projects/upcoming">Upcoming</a>
+                                    <a href="/projects">Upcoming</a>
                                 </li>
 
                             </ul>
@@ -55,10 +55,10 @@ class RealtyFooter extends Component{
                                     <a href="/About">Company</a>
                                 </li>
                                 <li>
-                                    <a href="#!">Investors</a>
+                                    <a href="/investors">Investors</a>
                                 </li>
                                 <li>
-                                    <a href="#!">Agents</a>
+                                    <a href="/agents!">Agents</a>
                                 </li>
 
                             </ul>
@@ -71,10 +71,10 @@ class RealtyFooter extends Component{
                                     <a href="/Contact">Email <i className="fab fa-google-plus-g fa-xs"> </i></a>
                                 </li>
                                 <li>
-                                    <a href="#!">Facebook <i className="fa fa-facebook-official fa-xs" aria-hidden="true"></i> </a>
+                                    <a href="http://www.facebook.com">Facebook <i className="fa fa-facebook-official fa-xs" aria-hidden="true"></i> </a>
                                 </li>
                                 <li>
-                                    <a href="#!">Instagram <i className="fa fa-instagram fa-xs" aria-hidden="true"></i></a>
+                                    <a href="/contact">Instagram <i className="fa fa-instagram fa-xs" aria-hidden="true"></i></a>
                                 </li>
 
                             </ul>

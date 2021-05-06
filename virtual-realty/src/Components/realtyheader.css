@@ -1,11 +1,12 @@
 .container-fluid{
   padding-left: 0;
   padding-right: 0;
+ 
 }
-.container{
+.container1{
   height:500px;
   width: 100%;
-  background-image: url(../Assets/Home1.jpg);
+   background-image: url(../Assets/Home1.jpg);
   background-repeat: no-repeat;
    background-size: cover;
    /* opacity: 80%; */
@@ -18,11 +19,12 @@
 
   /* padding-bottom: 10rem; */
 }
+
 .navbar{
-    padding: 1rem;
+/*    padding: 1rem;*/
     /* text-decoration: none; */
     background-color: #9F9A9A;
-    font-weight: 500;
+    font-weight: 400;
 
 }
 ul.ulist{
@@ -35,7 +37,7 @@ navbar.homebar{
 
 }
 .homebar{
-   margin-bottom: 1.1rem;
+   margin-bottom: 1.4rem;
 }
 .homebar>a, ul>a{
   align-items: center;
@@ -54,12 +56,24 @@ nav ul li a:hover,nav a:hover {
 .navbar-light .navbar-nav .nav-link{
   color: rgba(0,0,0,.9);
   font-size: 22px;
+ 
 }
 .navbar.navbar-expand-sm{
   text-decoration: none;
+    margin-left: 
 }
 ul.navbar li{
   list-style-type: none;
+    
+}
+.btn-primary{
+    margin-top: 15px;
+}
+.landingpage{
+    background-image: url(../Assets/Home1.jpg);
+  background-repeat: no-repeat;
+   background-size: cover;
+   /* opacity: 80%; */
 }
 .sectionsearch{
     margin-top: 10%;

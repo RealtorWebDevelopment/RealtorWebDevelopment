@@ -11,7 +11,7 @@ class ImageDisplay extends Component{
     {
         return(
 
-            <div className="container">
+            <div className="container1 landingPage">
                 <div className="sectionsearch">
                     <div className="row">
                         <div className="col-sm">

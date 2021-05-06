@@ -10,7 +10,7 @@ div.about-usPage{
 }
 
 .container.about-us{
-  background-image: url(../Assets/Aboutus2.jpg) ;
+  background-image: url(../Assets/AboutImage.jpg) ;
   background-repeat: no-repeat;
   width: 100%;
   padding: 10px 30px;
@@ -19,7 +19,7 @@ div.about-usPage{
 }
 .container-fluid.about-us {
     min-width: 1160px;
-    min-height: 200px;
+    min-height: 300px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -64,10 +64,11 @@ div.about-usPage{
        }
     .TopDisplay1{
      
-      background-image: url(../Assets/contactusimg3.jpg);
+      background-image: url(../Assets/contact.jpg);
       background-repeat: no-repeat;
       background-size: cover;
-       height: 300px;
+       
+        height: 500px;;
     
       margin-bottom: 40px;
     }
@@ -79,7 +80,7 @@ div.about-usPage{
        height: 300px;
     }
     .wrapper{
-      padding: 60px 0px;
+/*      padding: 60px 0px;*/
       overflow: hidden;
 
       text-align: center;
@@ -87,9 +88,14 @@ div.about-usPage{
       box-sizing: border-box;
       display: block;
       font-family: "roboto",sans-serif;
+        font-weight: 500;
+       
     }
     div.container h1, .about-info{
-      color: white;
+      color: springgreen;
+        font-family: sans-serif,serif;
+        font-weight: 800;
+        
     }
       section{
           background-color: gainsboro;
@@ -149,8 +155,8 @@ color: brown;
     transition: .2s ease-in-out;
 }
 
-.portfolio-box:hover {
-    cursor: pointer;
+.portfolio-object:hover {
+    cursor: crosshair;
     transform: scale(1.02);
 }
 
@@ -180,11 +186,12 @@ color: brown;
     color: brown;
 }
 .container-fluid.about-us.story-info{
-    height:300px;
+    height:350px;
     width: 75%;
 
 }
 .story-object{
+   
     display:flex;
     font-size: 40px;
     align-content: space-between;
@@ -195,7 +202,7 @@ color: brown;
 
      padding: 20px;
     width: 550px;
-    height: 250px;
+    height: 450px;
 }
 .icon
 {
@@ -203,14 +210,36 @@ color: brown;
     height: 50px;
    align-content: center;
 }
+
 .right-info{
     font-size: 20px;
     text-align: center;
 
 }
+.container-fluid.about-us.mission-info,.container-fluid.about-us.vision-info
+{
+    padding:0;
+    margin:0;
+    min-width: 100px;
+    min-height: 100px;
+   background-color: white;
+    
+}
+.container-fluid.about-us.customer-info
+{
+/*    max-width: 200px;*/
+    max-height: 150px;
+    background-color: white;
+}
+#sample1{
+    text-align: center;
+    padding: 20px;
+    line-height: 1.5rem;
+}
 .mission{
   padding: 30px 100px;
 }
+
 .left-info
 {
     text-align: center;

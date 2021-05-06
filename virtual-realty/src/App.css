@@ -3,19 +3,21 @@
 }
 
 .App-logo {
-  max-height: 20vmin;
+  max-height: 19vmin;
   pointer-events: none;
 }
 
+/*
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+*/
 
 .App-header {
   background-color: #282c34;
-  max-height: 20vh;
+  max-height: 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;

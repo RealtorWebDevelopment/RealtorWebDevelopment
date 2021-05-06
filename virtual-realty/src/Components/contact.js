@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './realtyheader.css';
 import './about.css';
-
+//import RealtyHeader from './realtyheader';
 
 
 class Contact extends Component{
@@ -12,6 +12,7 @@ class Contact extends Component{
     {
         return(
             <div class="Contact-us">
+
             <div class="TopDisplay1">
 
 
